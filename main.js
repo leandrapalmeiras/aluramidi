@@ -28,4 +28,6 @@ for (let contador = 0; contador < listadeTeclas.length; contador ++){
     }
 }
 
-listadeTeclas[0].onclick = tocaSomPom;
+tecla.onkeyup = function(){
+    tecla.classList.remove('ative');
+}
